@@ -1,0 +1,17 @@
+﻿  Graphics.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Main.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+Input.obj : warning LNK4006: "bool isRunning" (?isRunning@@3_NA) already defined in Graphics.obj; second definition ignored
+Input.obj : warning LNK4006: "struct SDL_Renderer * renderer" (?renderer@@3PEAUSDL_Renderer@@EA) already defined in Graphics.obj; second definition ignored
+Main.obj : warning LNK4006: "bool isRunning" (?isRunning@@3_NA) already defined in Graphics.obj; second definition ignored
+Main.obj : warning LNK4006: "struct SDL_Renderer * renderer" (?renderer@@3PEAUSDL_Renderer@@EA) already defined in Graphics.obj; second definition ignored
+GameObject.obj : warning LNK4006: "bool isRunning" (?isRunning@@3_NA) already defined in Graphics.obj; second definition ignored
+GameObject.obj : warning LNK4006: "struct SDL_Renderer * renderer" (?renderer@@3PEAUSDL_Renderer@@EA) already defined in Graphics.obj; second definition ignored
+Player.obj : warning LNK4006: "bool isRunning" (?isRunning@@3_NA) already defined in Graphics.obj; second definition ignored
+Player.obj : warning LNK4006: "struct SDL_Renderer * renderer" (?renderer@@3PEAUSDL_Renderer@@EA) already defined in Graphics.obj; second definition ignored
+     Creating library C:\Users\jonatankjelljohan.j\Documents\Visual Studio 2017\Projects\RPG\x64\Debug\RPG.lib and object C:\Users\jonatankjelljohan.j\Documents\Visual Studio 2017\Projects\RPG\x64\Debug\RPG.exp
+C:\Users\jonatankjelljohan.j\Documents\Visual Studio 2017\Projects\RPG\x64\Debug\RPG.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  RPG.vcxproj -> C:\Users\jonatankjelljohan.j\Documents\Visual Studio 2017\Projects\RPG\x64\Debug\RPG.exe
+  RPG.vcxproj -> C:\Users\jonatankjelljohan.j\Documents\Visual Studio 2017\Projects\RPG\x64\Debug\RPG.pdb (Partial PDB)

@@ -56,6 +56,14 @@ Controller Controller::Input(Controller controller) {
 				controller.xaxis = controller.nMax;
 				controller.flip = false;
 				break;
+            case SDLK_d:
+                controller.xaxis = controller.nMax;
+                controller.flip = false;
+                break;
+            case SDLK_a:
+                controller.xaxis = controller.nMin;
+                controller.flip = true;
+                break;
 			}
 			break;
 		case SDL_KEYUP:
@@ -67,6 +75,10 @@ Controller Controller::Input(Controller controller) {
 				controller.xaxis = 0;
 			case SDLK_RIGHT:
 				controller.xaxis = 0;
+            case SDLK_d:
+                controller.xaxis = 0;
+            case SDLK_a:
+                controller.xaxis = 0;
 			}
 		}
 	}

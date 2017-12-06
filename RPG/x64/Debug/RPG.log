@@ -1,7 +1,7 @@
-﻿  Graphics.cpp
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  Main.cpp
+﻿  Input.cpp
+c:\users\oliver.boudet\documents\visual studio 2017\projects\flunsour\rpg\input.cpp(15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\oliver.boudet\documents\visual studio 2017\projects\flunsour\rpg\input.cpp(16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\oliver.boudet\documents\visual studio 2017\projects\flunsour\rpg\input.cpp(18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
 Input.obj : warning LNK4006: "bool isRunning" (?isRunning@@3_NA) already defined in Graphics.obj; second definition ignored
 Input.obj : warning LNK4006: "struct SDL_Renderer * renderer" (?renderer@@3PEAUSDL_Renderer@@EA) already defined in Graphics.obj; second definition ignored
@@ -11,7 +11,6 @@ GameObject.obj : warning LNK4006: "bool isRunning" (?isRunning@@3_NA) already de
 GameObject.obj : warning LNK4006: "struct SDL_Renderer * renderer" (?renderer@@3PEAUSDL_Renderer@@EA) already defined in Graphics.obj; second definition ignored
 Player.obj : warning LNK4006: "bool isRunning" (?isRunning@@3_NA) already defined in Graphics.obj; second definition ignored
 Player.obj : warning LNK4006: "struct SDL_Renderer * renderer" (?renderer@@3PEAUSDL_Renderer@@EA) already defined in Graphics.obj; second definition ignored
-     Creating library C:\Users\jonatankjelljohan.j\Documents\Visual Studio 2017\Projects\RPG\x64\Debug\RPG.lib and object C:\Users\jonatankjelljohan.j\Documents\Visual Studio 2017\Projects\RPG\x64\Debug\RPG.exp
-C:\Users\jonatankjelljohan.j\Documents\Visual Studio 2017\Projects\RPG\x64\Debug\RPG.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
-  RPG.vcxproj -> C:\Users\jonatankjelljohan.j\Documents\Visual Studio 2017\Projects\RPG\x64\Debug\RPG.exe
-  RPG.vcxproj -> C:\Users\jonatankjelljohan.j\Documents\Visual Studio 2017\Projects\RPG\x64\Debug\RPG.pdb (Partial PDB)
+     Creating library C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\Flunsour\x64\Debug\RPG.lib and object C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\Flunsour\x64\Debug\RPG.exp
+C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\Flunsour\x64\Debug\RPG.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  RPG.vcxproj -> C:\Users\oliver.boudet\Documents\Visual Studio 2017\Projects\Flunsour\x64\Debug\RPG.exe

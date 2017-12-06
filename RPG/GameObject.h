@@ -5,7 +5,7 @@
 #pragma once
 #endif  // _MSC_VER
 
-#include <SDL.h>
+#include "SDL.h"
 #include "Common.h"
 #include "TextureLoader.h"
 #include "Input.h"

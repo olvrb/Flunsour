@@ -5,7 +5,7 @@
 #pragma once
 #endif  // _MSC_VER
 
-#include <SDL_image.h>
+#include "SDL_image.h"
 
 namespace TextureLoader {
 	SDL_Texture *LoadTexture(SDL_Renderer *renderer, const char *File);

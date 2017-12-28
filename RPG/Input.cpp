@@ -45,40 +45,52 @@ Controller Controller::Input(Controller controller) {
 			break;
 		case SDL_KEYDOWN:
 			switch (event.key.keysym.sym) {
-			case SDLK_SPACE:
-				controller.Abutton = true;
-				break;
-			case SDLK_LEFT:
-				controller.xaxis = controller.nMin;
-				controller.flip = true;
-				break;
-			case SDLK_RIGHT:
-				controller.xaxis = controller.nMax;
-				controller.flip = false;
-				break;
-            case SDLK_d:
-                controller.xaxis = controller.nMax;
-                controller.flip = false;
-                break;
-            case SDLK_a:
-                controller.xaxis = controller.nMin;
-                controller.flip = true;
-                break;
+			    case SDLK_SPACE: // if space jump
+				    controller.Abutton = true;
+				    break;
+                case SDLK_UP: //if keyup jump
+                    controller.Abutton = true;
+                    break;
+                case SDLK_w: //if w jump
+                    controller.Abutton = true;
+                    break;
+			    case SDLK_LEFT:                                            
+				    controller.xaxis = controller.nMin;                                                 
+				    controller.flip = true;
+				    break;
+			    case SDLK_RIGHT:
+				    controller.xaxis = controller.nMax;
+				    controller.flip = false;
+				    break;
+                case SDLK_d:
+                    controller.xaxis = controller.nMax;
+                    controller.flip = false;
+                    break;
+                case SDLK_a:
+                    controller.xaxis = controller.nMin;
+                    controller.flip = true;
+                    break;
 			}
 			break;
 		case SDL_KEYUP:
 			switch (event.key.keysym.sym) {
-			case SDLK_SPACE:
-				controller.Abutton = false;
-				break;
-			case SDLK_LEFT:
-				controller.xaxis = 0;
-			case SDLK_RIGHT:
-				controller.xaxis = 0;
-            case SDLK_d:
-                controller.xaxis = 0;
-            case SDLK_a:
-                controller.xaxis = 0;
+			    case SDLK_SPACE:
+				    controller.Abutton = false;
+				    break;
+                case SDLK_UP: 
+                    controller.Abutton = false;
+                    break;
+                case SDLK_w: 
+                    controller.Abutton = false;
+                    break;
+			    case SDLK_LEFT:
+				    controller.xaxis = 0;
+			    case SDLK_RIGHT:
+				    controller.xaxis = 0;
+                case SDLK_d:
+                    controller.xaxis = 0;
+                case SDLK_a:
+                    controller.xaxis = 0;
 			}
 		}
 	}
